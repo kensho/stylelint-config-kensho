@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-config-kensho",
+  "version": "0.0.0",
+  "description": "Standard Kensho config to lint CSS/postcss files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Billy Janitsch <billyjanitsch@gmail.com> (http://billyjanitsch.com)",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "repository": "kensho/stylelint-config-kensho",
+  "dependencies": {
+    "stylelint-config-standard": "^15.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "stylelint": "^7.6.0"
+  }
+}

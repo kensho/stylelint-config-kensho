@@ -1,0 +1,31 @@
+.fine {
+  color: white;
+}
+.missing-newline-before-block {
+  color: black;
+}
+
+
+.extra-newline-before-block {
+  color: black;
+}
+
+.extra-newline-between-decls {
+  color: white;
+
+  background-color: black;
+}
+
+.fine {
+  .fine {
+    color: white;
+  }
+  .missing-newline-before-nested-block {
+    color: white;
+  }
+
+
+  .extra-newline-before-nested-block {
+    color: white;
+  }
+}
