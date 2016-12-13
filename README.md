@@ -1,5 +1,7 @@
 # stylelint-config-kensho
 
+[![CircleCI](https://circleci.com/gh/kensho/stylelint-config-kensho.svg?style=svg)](https://circleci.com/gh/kensho/stylelint-config-kensho)
+
 This [Stylelint config](http://stylelint.io/user-guide/configuration/#extends) extends the [standard config](https://github.com/stylelint/stylelint-config-standard) with a few customizations.
 
 You can use it to lint CSS and postcss files.
