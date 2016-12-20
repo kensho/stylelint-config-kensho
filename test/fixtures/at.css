@@ -1,6 +1,0 @@
-@value --myValue: 5;
-
-.myClass {
-  @mixin myMixin 1, 2;
-  @unknown atrule;
-}

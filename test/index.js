@@ -15,13 +15,17 @@ const macro = async (t, input, expected) => {
 
 macro.title = provided => `lints issues with ${provided}`
 
-test('at rules', macro, 'at', [
-  [5, 'at-rule-no-unknown'],
+test('at rules', macro, 'atRules', [
+  [2, 'at-rule-no-unknown'],
+  [6, 'at-rule-no-unknown'],
+  [9, 'at-rule-no-vendor-prefix'],
+  [15, 'media-feature-name-no-vendor-prefix'],
 ])
 
 test('selectors', macro, 'selectors', [
   [1, 'selector-no-id'],
   [5, 'selector-class-pattern'],
+  [13, 'selector-no-vendor-prefix'],
 ])
 
 test('spacing', macro, 'spacing', [
@@ -35,8 +39,10 @@ test('spacing', macro, 'spacing', [
 
 test('properties', macro, 'properties', [
   [4, 'property-no-unknown'],
-  [12, 'selector-attribute-quotes'],
-  [13, 'string-quotes'],
-  [13, 'font-family-name-quotes'],
-  [14, 'function-url-quotes'],
+  [5, 'property-no-vendor-prefix'],
+  [6, 'value-no-vendor-prefix'],
+  [14, 'selector-attribute-quotes'],
+  [15, 'string-quotes'],
+  [15, 'font-family-name-quotes'],
+  [16, 'function-url-quotes'],
 ])

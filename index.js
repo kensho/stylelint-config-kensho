@@ -6,22 +6,22 @@ module.exports = {
     // disallow empty lines between declarations
     'declaration-empty-line-before': 'never',
 
-    // require quotes around font names for consistency
-    'font-family-name-quotes': 'always-unless-keyword',
-
-    // require quotes around URLs
-    'function-url-quotes': 'always',
-
-    // require quotes around attributes in selectors
-    'selector-attribute-quotes': 'always',
-
-    // always prefer class selectors
+    // always prefer class selectors and enforce camelCase
+    'selector-class-pattern': '^[a-z]+([A-Z][a-z]*)*$',
     'selector-no-id': true,
 
-    // use single quotes for strings to match JS
+    // require quotes around font names, URLs, and attributes in selectors
+    // require single quotes for strings to match JS
+    'font-family-name-quotes': 'always-unless-keyword',
+    'function-url-quotes': 'always',
+    'selector-attribute-quotes': 'always',
     'string-quotes': 'single',
 
     // disallow vendor prefixes, since we use autoprefixer
+    'at-rule-no-vendor-prefix': true,
+    'media-feature-name-no-vendor-prefix': true,
+    'property-no-vendor-prefix': true,
+    'selector-no-vendor-prefix': true,
     'value-no-vendor-prefix': true,
 
     // allow css-modules `composes` syntax, but disallow other unknown properties
@@ -39,9 +39,6 @@ module.exports = {
       except: ['blockless-group', 'all-nested'],
       ignore: ['after-comment'],
     }],
-
-    // enforce camelCase class selectors
-    'selector-class-pattern': '^[a-z]+([A-Z][a-z]*)*$',
 
     // disallow lines longer than 100 characters
     'max-line-length': 100,

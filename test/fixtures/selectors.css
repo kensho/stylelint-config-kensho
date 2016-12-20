@@ -9,3 +9,7 @@
 .camelCasedClass {
   color: white;
 }
+
+.vendorPrefixed::-moz-placeholder {
+  color: white;
+}
