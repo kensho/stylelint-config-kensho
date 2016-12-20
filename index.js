@@ -39,5 +39,8 @@ module.exports = {
 
     // enforce camelCase class selectors
     'selector-class-pattern': '^[a-z]+([A-Z][a-z]*)*$',
+
+    // disallow lines longer than 100 characters
+    'max-line-length': 100,
   },
 }

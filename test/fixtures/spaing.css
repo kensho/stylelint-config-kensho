@@ -29,3 +29,7 @@
     color: white;
   }
 }
+
+.notThatThisWouldEverBeAProblemThatYouWouldActuallyEncounterButForTheSakeOfTestingHereIsALongClassName {
+  color: white;
+}

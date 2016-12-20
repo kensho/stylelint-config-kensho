@@ -24,12 +24,13 @@ test('selectors', macro, 'selectors', [
   [5, 'selector-class-pattern'],
 ])
 
-test('line breaks', macro, 'linebreaks', [
+test('spacing', macro, 'spacing', [
   [4, 'rule-non-nested-empty-line-before'],
   [9, 'max-empty-lines'],
   [16, 'declaration-empty-line-before'],
   [23, 'rule-nested-empty-line-before'],
   [28, 'max-empty-lines'],
+  [33, 'max-line-length'],
 ])
 
 test('properties', macro, 'properties', [
