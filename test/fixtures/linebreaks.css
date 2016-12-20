@@ -1,16 +1,16 @@
 .fine {
   color: white;
 }
-.missing-newline-before-block {
+.missingNewlineBeforeBlock {
   color: black;
 }
 
 
-.extra-newline-before-block {
+.extraNewlineBeforeBlock {
   color: black;
 }
 
-.extra-newline-between-decls {
+.extraNewlineBetweenProperties {
   color: white;
 
   background-color: black;
@@ -20,12 +20,12 @@
   .fine {
     color: white;
   }
-  .missing-newline-before-nested-block {
+  .missingNewLineBeforeNestedBlock {
     color: white;
   }
 
 
-  .extra-newline-before-nested-block {
+  .extraNewlineBeforeNestedBlock {
     color: white;
   }
 }

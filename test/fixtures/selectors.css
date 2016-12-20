@@ -1,11 +1,11 @@
-#example { /* id selector */
+#idSelector {
   color: white;
 }
 
-.example-class { /* non-camelCased class */
+.non-camel-cased-class {
   color: white;
 }
 
-.exampleClass {
+.camelCasedClass {
   color: white;
 }
