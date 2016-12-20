@@ -35,4 +35,8 @@ test('spacing', macro, 'spacing', [
 
 test('properties', macro, 'properties', [
   [4, 'property-no-unknown'],
+  [12, 'selector-attribute-quotes'],
+  [13, 'string-quotes'],
+  [13, 'font-family-name-quotes'],
+  [14, 'function-url-quotes'],
 ])

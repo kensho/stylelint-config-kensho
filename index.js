@@ -12,6 +12,9 @@ module.exports = {
     // require quotes around URLs
     'function-url-quotes': 'always',
 
+    // require quotes around attributes in selectors
+    'selector-attribute-quotes': 'always',
+
     // always prefer class selectors
     'selector-no-id': true,
 

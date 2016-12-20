@@ -3,3 +3,13 @@
   composes: a;
   unknown-property: blue;
 }
+
+.quotes[data-title='good'] {
+  font-family: 'some-custom-font', sans-serif;
+  background-image: url('./image.png');
+}
+
+.quotes[data-title=bad] {
+  font-family: "custom-font-a", custom-font-b;
+  background-image: url(./image.png);
+}
