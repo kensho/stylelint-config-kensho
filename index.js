@@ -42,5 +42,8 @@ module.exports = {
 
     // disallow lines longer than 100 characters
     'max-line-length': 100,
+
+    // disallow use of !important
+    'declaration-no-important': true,
   },
 }

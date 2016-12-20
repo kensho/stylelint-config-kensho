@@ -38,11 +38,12 @@ test('spacing', macro, 'spacing', [
 ])
 
 test('properties', macro, 'properties', [
-  [4, 'property-no-unknown'],
-  [5, 'property-no-vendor-prefix'],
-  [6, 'value-no-vendor-prefix'],
-  [14, 'selector-attribute-quotes'],
-  [15, 'string-quotes'],
-  [15, 'font-family-name-quotes'],
-  [16, 'function-url-quotes'],
+  [3, 'declaration-no-important'],
+  [5, 'property-no-unknown'],
+  [6, 'property-no-vendor-prefix'],
+  [7, 'value-no-vendor-prefix'],
+  [15, 'selector-attribute-quotes'],
+  [16, 'string-quotes'],
+  [16, 'font-family-name-quotes'],
+  [17, 'function-url-quotes'],
 ])
