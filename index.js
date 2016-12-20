@@ -36,5 +36,8 @@ module.exports = {
       except: ['blockless-group', 'all-nested'],
       ignore: ['after-comment'],
     }],
+
+    // enforce camelCase class selectors
+    'selector-class-pattern': '^[a-z]+([A-Z][a-z]*)*$',
   },
 }

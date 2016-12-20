@@ -10,6 +10,6 @@ const invalid = async (t, input, errors = 1) => {
 invalid.title = provided => `lints issues with ${provided}`
 
 test('at rules', invalid, 'at')
-test('selectors', invalid, 'selectors')
+test('selectors', invalid, 'selectors', 2)
 test('line breaks', invalid, 'linebreaks', 5)
 test('properties', invalid, 'properties')
