@@ -29,9 +29,9 @@ module.exports = {
       ignoreProperties: ['composes'],
     }],
 
-    // allow css-modules `@mixin` and `@value` syntax, but disallow other unknown at rules
+    // allow postcss `@util` syntax, but disallow other unknown at rules
     'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['mixin', 'value'],
+      ignoreAtRules: ['util'],
     }],
 
     // require empty lines in between (nested) rules

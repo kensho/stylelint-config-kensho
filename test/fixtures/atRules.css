@@ -2,7 +2,7 @@
 @unknown atrule;
 
 .myClass {
-  @mixin myMixin 1, 2;
+  @util myUtil(1, 2);
   @unknown nestedatrule;
 }
 
