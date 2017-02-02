@@ -30,10 +30,10 @@ test('selectors', macro, 'selectors', [
 ])
 
 test('spacing', macro, 'spacing', [
-  [4, 'rule-non-nested-empty-line-before'],
+  [4, 'rule-empty-line-before'],
   [9, 'max-empty-lines'],
   [16, 'declaration-empty-line-before'],
-  [23, 'rule-nested-empty-line-before'],
+  [23, 'rule-empty-line-before'],
   [28, 'max-empty-lines'],
   [33, 'max-line-length'],
 ])
