@@ -36,7 +36,7 @@ module.exports = {
 
     // require empty lines in between (nested) rules
     'at-rule-empty-line-before': ['always', {
-      except: ['blockless-group', 'all-nested'],
+      except: ['blockless-after-blockless', 'inside-block'],
       ignore: ['after-comment'],
     }],
 

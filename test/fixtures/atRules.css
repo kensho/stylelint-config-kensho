@@ -15,3 +15,11 @@
 @media (-webkit-min-device-pixel-ratio: 1) {
   color: white;
 }
+
+.good {
+  color: blue;
+  @util size(1px);
+  @util position(absolute, 0);
+  background: red;
+  @util padding(2px);
+}
