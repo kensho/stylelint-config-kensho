@@ -12,12 +12,10 @@ To use the config, install stylelint and this config as development dependencies
 $ npm i -D stylelint stylelint-config-kensho
 ```
 
-Add a [`.stylelintrc.json`](http://stylelint.io/user-guide/configuration/) which extends the config:
+Add a [`.stylelintrc.yml`](http://stylelint.io/user-guide/configuration/) (or equivalent) which extends the config:
 
-```json
-{
-  "extends": "stylelint-config-kensho"
-}
+```yaml
+extends: stylelint-config-kensho
 ```
 
 Add an npm script in `package.json` to run the linter on all CSS files:
