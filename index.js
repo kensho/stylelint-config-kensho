@@ -24,11 +24,6 @@ module.exports = {
     'selector-no-vendor-prefix': true,
     'value-no-vendor-prefix': true,
 
-    // allow css-modules `composes` syntax, but disallow other unknown properties
-    'property-no-unknown': [true, {
-      ignoreProperties: ['composes'],
-    }],
-
     // allow postcss `@util` syntax, but disallow other unknown at rules
     'at-rule-no-unknown': [true, {
       ignoreAtRules: ['util'],

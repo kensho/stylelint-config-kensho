@@ -1,7 +1,6 @@
 .example {
   color: white;
   background-color: black !important;
-  composes: a;
   unknown-property: blue;
   -webkit-border-radius: 3px; /* vendor prefix */
   display: -webkit-flex;
