@@ -8,7 +8,7 @@ module.exports = {
 
     // always prefer class selectors and enforce camelCase
     'selector-class-pattern': '^[a-z]+([A-Z][a-z]*)*$',
-    'selector-no-id': true,
+    'selector-max-id': 0,
 
     // require quotes around font names, URLs, and attributes in selectors
     // require single quotes for strings to match JS

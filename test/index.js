@@ -24,7 +24,7 @@ test('at rules', macro, 'atRules', [
 ])
 
 test('selectors', macro, 'selectors', [
-  [1, 'selector-no-id'],
+  [1, 'selector-max-id'],
   [5, 'selector-class-pattern'],
   [13, 'selector-no-vendor-prefix'],
 ])
