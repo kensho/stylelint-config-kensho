@@ -19,7 +19,7 @@
     "stylelint": "^8.2.0"
   },
   "devDependencies": {
-    "ava": "^0.23.0",
+    "ava": "^0.24.0",
     "stylelint": "^8.2.0"
   }
 }
