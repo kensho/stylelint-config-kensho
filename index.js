@@ -6,6 +6,10 @@ module.exports = {
     // disallow empty lines between declarations
     'declaration-empty-line-before': 'never',
 
+    // require the most concise expression of properties
+    'declaration-block-no-redundant-longhand-properties': true,
+    'shorthand-property-no-redundant-values': true,
+
     // always prefer class selectors and enforce camelCase
     'selector-class-pattern': '^[a-z]+([A-Z][a-z]*)*$',
     'selector-max-id': 0,

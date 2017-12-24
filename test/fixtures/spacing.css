@@ -16,8 +16,8 @@
   background-color: black;
 }
 
-.fine {
-  .fine {
+.anotherFine {
+  .yetAnotherFine {
     color: white;
   }
   .missingNewLineBeforeNestedBlock {

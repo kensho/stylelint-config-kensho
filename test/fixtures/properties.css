@@ -12,6 +12,6 @@
 }
 
 .quotes[data-title=bad] {
-  font-family: "custom-font-a", custom-font-b;
+  font-family: "custom-font-a", custom-font-b, sans-serif;
   background-image: url(./image.png);
 }
