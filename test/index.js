@@ -18,9 +18,9 @@ macro.title = provided => `lints issues with ${provided}`
 test('at rules', macro, 'atRules', [
   [1, 'at-rule-no-unknown'],
   [2, 'at-rule-no-unknown'],
-  [6, 'at-rule-no-unknown'],
-  [9, 'at-rule-no-vendor-prefix'],
-  [15, 'media-feature-name-no-vendor-prefix'],
+  [5, 'at-rule-no-unknown'],
+  [8, 'at-rule-no-vendor-prefix'],
+  [14, 'media-feature-name-no-vendor-prefix'],
 ])
 
 test('selectors', macro, 'selectors', [

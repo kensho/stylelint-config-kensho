@@ -28,11 +28,6 @@ module.exports = {
     'selector-no-vendor-prefix': true,
     'value-no-vendor-prefix': true,
 
-    // allow postcss `@util` syntax, but disallow other unknown at rules
-    'at-rule-no-unknown': [true, {
-      ignoreAtRules: ['util'],
-    }],
-
     // require empty lines in between (nested) rules
     'at-rule-empty-line-before': ['always', {
       except: ['blockless-after-blockless', 'inside-block'],

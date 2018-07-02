@@ -2,7 +2,6 @@
 @unknown atrule;
 
 .myClass {
-  @util myUtil(1, 2);
   @unknown nestedatrule;
 }
 
@@ -18,8 +17,5 @@
 
 .good {
   color: blue;
-  @util size(1px);
-  @util position(absolute, 0);
   background: red;
-  @util padding(2px);
 }
