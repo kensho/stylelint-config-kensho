@@ -20,6 +20,6 @@
   },
   "devDependencies": {
     "ava": "^1.0.1",
-    "stylelint": "^9.9.0"
+    "stylelint": "^10.0.0"
   }
 }
