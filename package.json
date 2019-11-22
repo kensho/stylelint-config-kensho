@@ -16,10 +16,10 @@
     "stylelint-config-standard": "^19.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^11.0.0"
+    "stylelint": "^12.0.0"
   },
   "devDependencies": {
     "ava": "^2.4.0",
-    "stylelint": "^11.1.1"
+    "stylelint": "^12.0.0"
   }
 }
