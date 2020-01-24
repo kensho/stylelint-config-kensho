@@ -1,5 +1,5 @@
-import test from 'ava'
-import {lint} from 'stylelint'
+const test = require('ava')
+const {lint} = require('stylelint')
 
 const macro = async (t, input, expected) => {
   const result = await lint({files: `${__dirname}/fixtures/${input}.css`})
