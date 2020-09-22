@@ -6,20 +6,20 @@
   "scripts": {
     "test": "ava"
   },
-  "author": "Billy Janitsch <billyjanitsch@gmail.com> (http://billyjanitsch.com)",
+  "author": "Billy Janitsch <billyjanitsch@gmail.com> (https://billyjanitsch.com)",
   "license": "MIT",
   "files": [
     "index.js"
   ],
   "repository": "kensho/stylelint-config-kensho",
   "dependencies": {
-    "stylelint-config-standard": "^19.0.0"
+    "stylelint-config-standard": "^20.0.0"
   },
   "peerDependencies": {
     "stylelint": "^13.0.0"
   },
   "devDependencies": {
-    "ava": "^3.0.0",
-    "stylelint": "^13.0.0"
+    "ava": "^3.12.1",
+    "stylelint": "^13.7.1"
   }
 }
