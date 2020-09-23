@@ -29,22 +29,10 @@ test('selectors', macro, 'selectors', [
   [13, 'selector-no-vendor-prefix'],
 ])
 
-test('spacing', macro, 'spacing', [
-  [4, 'rule-empty-line-before'],
-  [8, 'max-empty-lines'],
-  [16, 'declaration-empty-line-before'],
-  [23, 'rule-empty-line-before'],
-  [27, 'max-empty-lines'],
-  [33, 'max-line-length'],
-])
-
 test('properties', macro, 'properties', [
   [3, 'declaration-no-important'],
   [4, 'property-no-unknown'],
   [5, 'property-no-vendor-prefix'],
   [6, 'value-no-vendor-prefix'],
   [14, 'selector-attribute-quotes'],
-  [15, 'string-quotes'],
-  [15, 'font-family-name-quotes'],
-  [16, 'function-url-quotes'],
 ])
